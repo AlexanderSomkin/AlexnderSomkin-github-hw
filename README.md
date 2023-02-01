@@ -22,7 +22,7 @@
 
 Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
 
-![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/Zabbix%20hosts%202.3.jpg)
+![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/Скриншот%2001-02-2023%20215711.jpg)
 
  ---
 
