@@ -1,45 +1,37 @@
-# Домашнее задание к занятию "9.2. Zabbix" - Александр Сомкин.
-
-**
----
-
-### Задание 1. 
-
-Установите Zabbix Server с веб-интерфейсом.
-
-*Приложите скриншот авторизации в админке*
-
-![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/zabbix%201.jpg)
+# Домашнее задание к занятию 9.3 «Система мониторинга Zabbix. Часть 2» - Александр Сомкин.
 
 ---
 
-### Задание 2. 
+### Задание 1
 
-Установите Zabbix Agent на два хоста.
+Создайте свой шаблон, в котором будут элементы данных, мониторящие загрузку CPU и RAM хоста.
 
-*Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу.*
-*Приложите скриншот лога zabbix agent, где видно, что он работает с сервером.*
-*Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.*
+![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/Задание%201.jpg)
 
-***2.1*** 
+ ---
 
-![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/zabbix%202.jpg)
+### Задание 2
 
-***2.2.1***
+Добавьте в Zabbix два хоста и задайте им имена <фамилия и инициалы-1> и <фамилия и инициалы-2>. Например: ivanovii-1 и ivanovii-2.
 
-![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/som%202%20log.jpg)
 
-***2.2.2***
 
-![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/som%201%20log.jpg)
+ ---
 
-***2.3.1***
+### Задание 3
 
-![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/test%202%20data.jpg)
+Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
 
-***2.3.2***
+![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/Zabbix%20hosts%202.3.jpg)
 
-![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/test%202.jpg)
+ ---
 
+### Задание 4
+
+Создайте свой кастомный дашборд.
+
+![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/DASHBOARD.jpg)
+
+ ---
 
 
