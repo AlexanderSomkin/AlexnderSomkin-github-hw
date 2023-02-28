@@ -62,25 +62,5 @@ Weighted Round Robin: Тот же round robin, но имеет
 
 "nginx is configured correctly".
 
-*Приведите конфигурации настроенного Nginx сервиса и скриншот результата выполнения команды curl http://localhost:8088/ping.*
 
----
-
-## Задания со звёздочкой*
-
-Эти задания дополнительные. Их выполнять не обязательно. На зачёт это не повлияет. Вы можете их выполнить, если хотите глубже разобраться в материале.
-
----
-
-### Задание 6*
-
-Настройте Haproxy таким образом, чтобы при ответе на запрос:
-
-`curl http://localhost:8080/`
-
-он проксировал его в Nginx на порту 8088, который был настроен в задании 5 и возвращал от него ответ: 
-
-"nginx is configured correctly". 
-
-*Приведите конфигурации настроенного Haproxy и скриншоты результата выполнения команды curl http://localhost:8080/.*
-
+![nginx.conf](https://github.com/AlexanderSomkin/AlexnderSomkin-github-hw/blob/main/nginx.conf)
