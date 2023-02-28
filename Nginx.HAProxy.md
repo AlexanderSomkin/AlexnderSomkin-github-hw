@@ -6,9 +6,9 @@
 
 Что такое балансировка нагрузки и зачем она нужна? 
 
-Балансировка нагрузки (load balancing) — это процесс распределения нагрузки на пул серверов.
-Распределение происходит на L4(Транспортный) или
-L7(Прикладной) уровнях модели OSI.
+Балансировка нагрузки — это процесс распределения нагрузки на пул серверов.
+Распределение происходит на L4 или
+L7 уровнях модели OSI.
 
 ---
 
@@ -42,6 +42,8 @@ Weighted Round Robin: Тот же round robin, но имеет
 
 *Приведите скриншот systemctl status haproxy, где будет видно, что Haproxy запущен.*
 
+![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/Haproxy.jpg)
+
 ---
 
 ### Задание 4
@@ -49,6 +51,8 @@ Weighted Round Robin: Тот же round robin, но имеет
 Установите и запустите Nginx.
 
 *Приведите скриншот systemctl status nginx, где будет видно, что Nginx запущен.*
+
+![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/nginx1.jpg)
 
 ---
 
@@ -62,5 +66,6 @@ Weighted Round Robin: Тот же round robin, но имеет
 
 "nginx is configured correctly".
 
+![alt text](https://github.com/AlexanderSomkin/srlb-homework/blob/srlb-14/nginx2.jpg)
 
 [nginx.conf](https://github.com/AlexanderSomkin/AlexnderSomkin-github-hw/blob/main/nginx.conf)
