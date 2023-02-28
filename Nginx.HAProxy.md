@@ -63,4 +63,4 @@ Weighted Round Robin: Тот же round robin, но имеет
 "nginx is configured correctly".
 
 
-![nginx.conf](https://github.com/AlexanderSomkin/AlexnderSomkin-github-hw/blob/main/nginx.conf)
+[nginx.conf](https://github.com/AlexanderSomkin/AlexnderSomkin-github-hw/blob/main/nginx.conf)
